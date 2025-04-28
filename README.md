@@ -1,3 +1,50 @@
+# Projet Award
+
+Application de vote pour les awards Discord. Permet aux membres d'un serveur Discord de se connecter et de voter pour différentes catégories.
+
+## Fonctionnalités
+
+- Authentification avec Discord
+- Salle d'attente en temps réel
+- Système de vote
+- Affichage des résultats
+
+## Configuration
+
+### Variables d'environnement requises
+
+```env
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=votre_secret
+DISCORD_CLIENT_ID=votre_client_id
+DISCORD_CLIENT_SECRET=votre_client_secret
+DISCORD_GUILD_ID=votre_guild_id
+```
+
+### Installation
+
+```bash
+npm install
+npm run dev
+```
+
+### Production
+
+Le projet est configuré pour être déployé sur Vercel. Assurez-vous d'ajouter les variables d'environnement dans les paramètres du projet Vercel.
+
+## Développement
+
+```bash
+# Lancer en mode développement
+npm run dev
+
+# Build pour la production
+npm run build
+
+# Lancer en production
+npm run start
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
